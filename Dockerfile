@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
 RUN npm install -g n8n
 
 # Volume persistente
-VOLUME ["/home/node/.n8n"]
+#VOLUME ["/home/node/.n8n"]
 
 EXPOSE 5678
 
